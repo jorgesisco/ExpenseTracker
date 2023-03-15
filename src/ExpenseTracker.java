@@ -18,4 +18,10 @@ public class ExpenseTracker {
         }
         return total;
     }
+
+    public void listExpenses() {
+        for (Expense expense : expenses) {
+            System.out.println(expense);
+        }
+    }
 }
