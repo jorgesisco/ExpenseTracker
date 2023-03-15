@@ -1,5 +1,14 @@
 public class Expense {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+    private final String description;
+
+    private final double amount;
+
+    private final String date;
+
+    public Expense(String description, double amount, String date) {
+        this.description = description;
+        this.amount = amount;
+        this.date = date;
     }
 }
