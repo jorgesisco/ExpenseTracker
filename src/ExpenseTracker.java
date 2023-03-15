@@ -10,4 +10,12 @@ public class ExpenseTracker {
     public void addExpense(Expense expense) {
         expenses.add(expense);
     }
+
+    public double getTotalExpenses() {
+        double total = 0;
+        for (Expense expense : expenses) {
+            total += expense.getAmount();
+        }
+        return total;
+    }
 }
