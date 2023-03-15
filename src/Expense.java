@@ -23,4 +23,13 @@ public class Expense {
     public String getDate() {
         return date;
     }
+
+    @Override
+    public String toString() {
+        return "Expense{" +
+                "description='" + description + '\'' +
+                ", amount=" + amount +
+                ", date='" + date + '\'' +
+                '}';
+    }
 }
