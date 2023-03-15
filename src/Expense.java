@@ -15,4 +15,12 @@ public class Expense {
     public String getDescription() {
         return description;
     }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public String getDate() {
+        return date;
+    }
 }
