@@ -11,4 +11,8 @@ public class Expense {
         this.amount = amount;
         this.date = date;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
